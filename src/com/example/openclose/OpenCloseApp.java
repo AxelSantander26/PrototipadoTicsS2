@@ -6,8 +6,8 @@ import com.example.openclose.descuentos.DescuentoVariable;
 
 public class OpenCloseApp {
     public static void main(String[] args) {
-        // Definimos un monto en 100 soles
-        double monto = 100;
+        // Definimo
+        double monto = 200;
         // Inicializamos un descuento variable
         Descuento descuento = new DescuentoVariable();
         // Aplicamos el primer descuento del 10%
