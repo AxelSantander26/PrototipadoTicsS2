@@ -7,9 +7,9 @@ import com.example.openclose.descuentos.DescuentoVariable;
 public class OpenCloseApp {
     public static void main(String[] args) {
         // Definimo
-        String monto = hola;
+        double monto = 100;
         // Inicializamos un descuento variable
-        Descuento descuento = new DescuentoVariable();
+        Descuento descuento = null;
         // Aplicamos el primer descuento del 10%
         double precioFinal = descuento.aplicarDescuento(monto);
         // Aplicar otro descuento
