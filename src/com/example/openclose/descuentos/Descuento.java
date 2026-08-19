@@ -4,4 +4,5 @@ public interface Descuento {
 
     double aplicarDescuento(double monto);
     // double cancelarDescuento();
+    //pipeline test;
 }
