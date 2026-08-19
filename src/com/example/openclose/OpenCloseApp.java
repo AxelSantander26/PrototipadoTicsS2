@@ -14,7 +14,7 @@ public class OpenCloseApp {
         double precioFinal = descuento.aplicarDescuento(monto);
         // Aplicar otro descuento
         // Redefinimos como descuento fijo
-        descuento = new DescuentoFijo();
+        descuento = new DescuentoFijo()
         // Aplicamos el descuento fijo de 10 soles
         precioFinal = descuento.aplicarDescuento(precioFinal);
         // Mostramos el resultado final (80 soles)
